@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpoffice/phpword": "dev-master"
+    }
+}
+
+{
+    "require": {
+       "phpoffice/phpword": "v0.14.*"
+    }
+}

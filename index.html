@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Form Upload Demo</title>
+    </head>
+    <body>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <table style="border-spacing: 1em;">
+                            <tr>
+                                    <td>Enter Title</td>
+                                    <td><input type="text" name="title" id="title" maxlength="100"></td>
+                            </tr>
+                            <tr>
+                                    <td>Select image to upload:</td>
+                                    <td><input type="file" name="image"></td>
+                            </tr>
+                            <tr>
+                                    <td>Select document file to upload:</td>
+                                    <td><input type="file" name="document"></td>
+                            </tr>
+                            <tr>
+                                    <td><input type="submit" value="Upload Files" name="submit"></td>
+                            </tr>
+                    </table>
+            </form>
+    </body>
+</html>
